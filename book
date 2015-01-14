@@ -1,0 +1,25 @@
+.pages {
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	overflow: visible;
+	background-color: #4c4c4c;
+	background-clip: padding-box;
+	border-style: solid;
+	border-color: transparent;
+	border-width: 0 1px 0 0;
+	box-shadow: inset 1px 1px 0 #676767,inset 0 -1px 0 #676767;
+	min-height: 75px;
+	padding: 100px 0 0;
+
+}
+.pages + div {
+	position: relative;
+	opacity: 1;
+	width: 80%;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
